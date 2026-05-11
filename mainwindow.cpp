@@ -6,6 +6,13 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    //Inicia os sliders no meio
+    ui->slider_trem1->setValue(100);
+    ui->slider_trem2->setValue(100);
+    ui->slider_trem3->setValue(100);
+    ui->slider_trem4->setValue(100);
+    ui->slider_trem5->setValue(100);
+    ui->slider_trem6->setValue(100);
 
     //Cria o trem com seu (ID, posição X, posição Y)
     trem1 = new Trem(1,60,30);
