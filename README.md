@@ -1,3 +1,8 @@
+## Componentes
+- ENIO ANTONIO CUNHA LIZIERI DO NASCIMENTO
+- MATHEUS ALMEIDA FONTES
+
+
 ## Projetos do Trens
 Simulação de uma malha ferroviária composta de 9 regiões críticas, com o objeto de coordenar os trens usando `mutex` e semáforos.
 
